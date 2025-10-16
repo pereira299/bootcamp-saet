@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localiza | Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="styles/index.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <p>Bem-vindo</p>
+        <form id="form-login">
+            <input 
+                name="email" 
+                placeholder="E-mail" 
+                type="text"
+                required
+            />
+            <div id="campo-senha">
+
+                <input 
+                name="senha" 
+                placeholder="Senha" 
+                type="password"
+                required
+                />
+                <div class="btn-olho" onclick="alternaSenha()">
+                    <i class="fa-solid fa-eye olho-aberto"></i>
+                    <i class="fa-solid fa-eye-slash olho-fechado"></i>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script/index.js"></script>
+</body>
+</html>

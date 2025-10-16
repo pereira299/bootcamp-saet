@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: #000000 0px 0px 2px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+button {
+    width: 100%;
+}
+
+input {
+    width: 93%;
+}
+
+input {
+    padding: 0.5rem;
+    border-top: solid 0px;
+    border-left: solid 0px;
+    border-right: solid 0px;
+    border-style: solid;
+}
+
+
+button {
+    background-color: #16439e;
+    border-radius: 0px;
+    border: none;
+    color: #ffffff;
+    padding: 1rem 0px;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn-olho {
+    display: flex;
+    flex-direction: row;
+}
+
+.olho-fechado {
+    display: block;
+}
+
+.olho-aberto {
+    display: none;
+}
+
+#campo-senha {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+#campo-senha input {
+    width: 80%;
+}
